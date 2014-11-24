@@ -26,7 +26,8 @@
                 <li role="presentation" class="active"><a href="${pageContext.request.contextPath}/hello/sayhi">Hello Controller</a></li>
                 </ul>    
             </div>
-            <h2>Hello, From the Controller!</h2>
+            <h2>Controller</h2>
+            <h3>${message}</h3>
         </div>
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="${pageContext.request.contextPath}/js/jquery-1.11.0.min.js"></script>
@@ -34,4 +35,5 @@
 
     </body>
 </html>
+
 
